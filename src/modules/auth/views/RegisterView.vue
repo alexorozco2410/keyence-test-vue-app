@@ -32,10 +32,6 @@
           >
             submit
           </v-btn>
-
-          <v-btn @click="handleReset">
-            clear
-          </v-btn>
         </form>
       </v-card-text>
     </v-card>
@@ -71,14 +67,9 @@ export default {
       }
     }
 
-    const handleReset = () => {
-      console.log('reset')
-    }
-
     return {
       userForm,
       submit,
-      handleReset
     }
   }
 }
