@@ -16,7 +16,7 @@ const routes = [
     component: UploadFileView
   },*/
   {
-    path: '/auth',
+    path: '/',
     ...authRouter
   },
   {

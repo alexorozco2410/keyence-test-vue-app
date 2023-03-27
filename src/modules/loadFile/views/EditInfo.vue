@@ -25,7 +25,7 @@
                 <tbody>
                     <tr
                         v-for="element in currentEditDoc.data"
-                        :key="element.userID"
+                        :key="element._id"
                     >
                         <td>{{ element.userID }}</td>
                         <td>{{ element.userName }}</td>
