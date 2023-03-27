@@ -1,4 +1,6 @@
-# app-web
+# Vue Composition API
+
+Aplicación para leer un archivo de excel y manipular su información
 
 ## Project setup
 ```
